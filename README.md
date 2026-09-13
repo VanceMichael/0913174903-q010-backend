@@ -2,8 +2,10 @@
 
 技术栈：Python FastAPI
 
-初始化与测试：pip install -r requirements.txt && pytest
+初始化与测试：`pip install -r requirements.txt && python -m pytest`
 
-测试命令：pytest
+迁移命令：`python migrate.py`
+
+测试命令：`python -m pytest`
 
 SQLite 路径可通过环境变量配置，默认位于项目工作目录的 data 目录。

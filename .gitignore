@@ -4,6 +4,7 @@
 *.sqlite
 *.sqlite3
 __pycache__/
+.pytest_cache/
 node_modules/
 target/
 coverage/
